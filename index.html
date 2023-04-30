@@ -1,37 +1,34 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h1>Weather App</h1>
-      <div class="search-box">
-        <input type="text" placeholder="Enter city name" id="search">
-        <button onclick="searchWeather()">Search</button>
-      </div>
-      <div class="weather-box">
-        <div class="location"></div>
-        <div class="temperature"></div>
-        <div class="weather"></div>
-      </div>
-    </div>
-  </body>
-</html>
-  <script src="script.js"></script>
+    <header>
+      <h1>Weather App By Aditi</h1>
+    </header>
+    <br /><br /><br />
 
-</body>
+    <form id="form">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search By Loaction"
+        autocomplete="off"
+      />
+      <br />
+      <br />
 
+      <button type="submit" class="sub">Search</button>
+    </form>
+
+    <main id="main" style="text-align: center"></main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
